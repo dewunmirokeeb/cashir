@@ -10,7 +10,7 @@ This Flutter project is a simple dashboard application designed as a response to
 1. **Welcome Screen**
    - Briefly introduce the app and its purpose.
    
-2. **Signup (User Registration and KYC)**
+2. **Authentication screen (User Registration and login)**
    - Provide a seamless user registration experience.
    - Include KYC process details.
 
