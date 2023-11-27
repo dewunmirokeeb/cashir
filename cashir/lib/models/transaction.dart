@@ -5,10 +5,10 @@ class TransactionModel {
   String? amount;
   String? date;
   TransactionModel.fromjson({required Map<String, dynamic> data}) {
-    id = data["id"];
+    id = data["id"].toString();
     desc = data["desc"];
     type = data["type"];
-    amount = data["amount"];
+    amount = data["amount"].toString();
     date = data["date"];
   }
   @override

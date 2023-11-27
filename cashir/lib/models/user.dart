@@ -9,8 +9,8 @@ class UserModel {
   UserModel.fromjson({required Map<String, dynamic> data}) {
     firstName = data["first_name"];
     lastName = data["last_name"];
-    accountBalance = data["account_balance"];
-    virtualAccountNo = data["virtual_acct_no"];
+    accountBalance = data["account_balance"].toString();
+    virtualAccountNo = data["virtual_acct_no"].toString();
     List<dynamic> transactionData = data["transactions"];
     transactions =
         transactionData.map((e) => TransactionModel.fromjson(data: e)).toList();

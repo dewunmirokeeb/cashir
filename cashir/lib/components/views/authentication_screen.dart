@@ -39,7 +39,7 @@ class AuthenticationScreen extends StatelessWidget {
               const SizedBox(height: 20),
               AppButton(
                 onTap: () {
-                  Navigator.of(context).push(
+                  Navigator.of(context).pushReplacement(
                     MaterialPageRoute(
                       builder: (_) => const UserDashBoard(),
                     ),
