@@ -28,8 +28,8 @@ class UserDashBoard extends StatelessWidget {
             } else {
               ApiDataModel apiData = data.data!;
               if (!apiData.isSuccessful) {
-                return const Center(
-                  child: Text('Error: Unable to get data'),
+                return Center(
+                  child: Text(apiData.message),
                 );
               } else {
                 UserModel userData = apiData.model as UserModel;
