@@ -28,15 +28,16 @@ This Flutter project is a simple dashboard application designed as a response to
 ## Folder Structure
    lib/
   |-- components/
+  |-- views/
   |   |-- welcome_screen.dart
   |   |-- signup_screen.dart
   |   |-- user_dashboard.dart
-  |   |-- transaction_analytics.dart
   |-- models/
   |   |-- user.dart
   |   |-- transaction.dart
   |-- services/
   |   |-- api_service.dart
+  |   |-- api_data_model.dart 
   |-- main.dart
 
 ## How to Run
@@ -53,6 +54,8 @@ This Flutter project is a simple dashboard application designed as a response to
 5. Run the app:
    flutter run 
 
+## Install Apk
+- You can install the android apk of the result fro this link (https://drive.google.com/file/d/1ZfuSZKMXU6tNKT5ZX-vdGYu8DskEEMHv/view?usp=sharing)
 
 
 
