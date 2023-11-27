@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:cashir/components/authentication_screen.dart';
+import 'package:cashir/components/views/authentication_screen.dart';
 import 'package:cashir/components/widgets/applogo.dart';
 import 'package:flutter/material.dart';
 

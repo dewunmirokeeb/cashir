@@ -1,4 +1,5 @@
 import 'package:cashir/components/constants/colors.dart';
+import 'package:cashir/components/views/user_dashboard.dart';
 import 'package:cashir/components/widgets/app_button.dart';
 import 'package:cashir/components/widgets/app_text_input_field.dart';
 import 'package:cashir/components/widgets/applogo.dart';
@@ -37,7 +38,13 @@ class AuthenticationScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               AppButton(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const UserDashBoard(),
+                    ),
+                  );
+                },
                 buttonText: "Login",
               ),
               const Row(),

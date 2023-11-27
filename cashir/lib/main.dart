@@ -1,5 +1,5 @@
 import 'package:cashir/components/constants/size_constant.dart';
-import 'package:cashir/components/welcome_screen.dart';
+import 'package:cashir/components/views/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
